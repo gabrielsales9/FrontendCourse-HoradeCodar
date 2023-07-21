@@ -1,0 +1,29 @@
+h3{
+    color:green;
+}
+body{
+    padding-bottom: 500px;
+}
+p{
+    color: blueviolet;
+}
+.paragraph{
+    background-color: black;
+    color: aqua;
+    padding: 5px;
+}
+#exclusive-title{
+    color: yellow;
+    background-color: purple;
+    padding: 10px;
+    font-size: 30px;
+}
+h2{
+    border-bottom: 2px solid red;
+}
+.titulo{
+    border-bottom: 3px solid purple;
+}
+#algum-titulo{
+    border-bottom: 4px solid rgb(102, 0, 255);
+}
