@@ -1,0 +1,14 @@
+#box-model{
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    margin: 25px;
+    background-color: black;
+    border: 10px solid purple;
+    outline: 5px solid blueviolet;
+}
+.box-title{
+    background-color: black;
+    color: white;
+    border:none; 
+}

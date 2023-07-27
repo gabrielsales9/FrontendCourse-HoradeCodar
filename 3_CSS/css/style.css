@@ -22,8 +22,46 @@ h2{
     border-bottom: 2px solid red;
 }
 .titulo{
-    border-bottom: 3px solid purple;
+    border-bottom: 3px solid 2purple;
 }
 #algum-titulo{
     border-bottom: 4px solid rgb(102, 0, 255);
+}
+.bg-image {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+}
+.not-centered-bg, .centered-bg{
+    height: 400px;
+    width: 400px;
+    background-image: url("../img/bridge.jpg");
+}
+.centered-bg{
+    background-position: center;
+}
+.height-width{
+    width: 100px;
+    height: 200px;
+    background-color: purple;
+}
+.height-width-2{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+.border{
+    border-radius: 8px;
+    padding: 10px;
+    border: 5px dotted purple;
+}
+.individual-border{
+    border-bottom: 3px solid black;
+    background-color: grey;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
+.margin{
+    margin:10px 10px 20px 100px;
 }
