@@ -26,6 +26,9 @@ html {
     text-align: center;
     margin-top: 30px;
 }
+.featured-image img{
+    padding-bottom: 10px;
+}
 .biography-container{
     padding: 25px 0;
     margin: 25px 0;
@@ -44,6 +47,10 @@ html {
 .album-container figcaption{
     font-size: 15px;
     padding-bottom: 10px;
+}
+.album-container a{
+    text-decoration: none;
+    color: #fff;
 }
 .quotes-container{
     background-color: #c5281d;
@@ -69,7 +76,9 @@ html {
 }
 .img-bold img{
     width: 700px;
-    height: 421px;;
+    height: 421px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 .moreinfo-container{
     padding-top: 10px;
