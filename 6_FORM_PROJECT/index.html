@@ -7,6 +7,52 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="container">
+        <div class="header">
+            <h1></h1>
+        </div>
+        <div class="content">
+            <div class="content_header">
+                <p>Formulário</p>
+            </div>
+        <div class="content-title">
+            <h3>Solicite uma proposta comercial em poucos passos</h3>
+            <p>Preencha o formulário com suas informações para que possamos gerar uma proposta comercial para você!</p>
+        </div>
+        <form class="forms">
+        <div class="form-text">
+            <label for="company">Digite o nome de sua empresa:</label>
+            <input type="text" required>
+        </div>
+        <div class="form-text">
+            <label for="name">Digite seu nome:</label>
+            <input type="text" required>
+        </div>
+        <div class="form-text">
+            <label for="job">Qual é o seu cargo na empresa?</label>
+            <select name="job">
+                <option value="diretor_de_tecnologia">Diretor de Tecnologia</option>
+                <option value="cto">CTO</option>
+                <option value="ceo">CEO</option>
+                <option value="gerente_de_ti">Gerente de TI</option>
+            </select>
+        </div>
+        <div class="form-text">
+            <label for="employees">Quantos funcionários tem em sua empresa?</label>
+            <select name="employees">
+                <option value="max_dez">1-10 funcionários</option>
+                <option value="max_cinq">11-50 funcionários</option>
+                <option value="max_cem">51-100 funcionários</option>
+                <option value="max_duze">101-200 funcionários</option>
+                <option value="mais_de_duzeum">201+ funcionários</option>
+            </select>
+        <div class="form-text">
+            <label for="comment">Descreva em poucas palavras sua necessidade:</label>
+            <textarea name="comment"></textarea>
+        </div>
+        </div>
+        </form>
+        </div>
+    </div>
 </body>
 </html>
