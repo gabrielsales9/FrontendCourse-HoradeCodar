@@ -21,11 +21,11 @@
         </div>
         <form class="forms">
         <div class="form-text">
-            <label for="company">Digite o nome de sua empresa:</label>
+            <label for="company">Digite seu nome:</label>
             <input type="text" required>
         </div>
         <div class="form-text">
-            <label for="name">Digite seu nome:</label>
+            <label for="name">Digite o nome da sua empresa:</label>
             <input type="text" required>
         </div>
         <div class="form-text">
@@ -46,10 +46,27 @@
                 <option value="max_duze">101-200 funcionários</option>
                 <option value="mais_de_duzeum">201+ funcionários</option>
             </select>
-        <div class="form-text">
-            <label for="comment">Descreva em poucas palavras sua necessidade:</label>
-            <textarea name="comment"></textarea>
+            <div class="form-text">
+                <label for="comment">Descreva em poucas palavras sua necessidade:</label>
+                <textarea name="comment"></textarea>
+            </div>
         </div>
+        <div class="form-text">
+            <label for="budget">Qual é o seu budget para este projeto?</label>
+            <input type="number" name="budget">
+        </div>
+        <div class="form-date">
+            <label for="start">Até qual data você precisa que o(s) recurso(s) comece(m)?</label>
+            <input type="date" name="start">
+        </div>
+        <div class="form-radio">
+            <label for="car_model">Você prefere que esse(s) recurso(s) atue(m) no modelo:</label>
+            <div class="radio">
+                <input type="radio" value="presencial" name="model">
+                <label for="presencial">Presencial</label>
+                <input type="radio" value="remoto" name="model">
+                <label for="remoto">Remoto</label>
+            </div>
         </div>
         </form>
         </div>
