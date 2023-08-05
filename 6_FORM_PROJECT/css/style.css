@@ -151,6 +151,8 @@ span{
     height: 40px;
     font-size: 14px;
     font-weight: bold;
+    cursor:pointer;
+    text-transform: uppercase;
 }
 .btn_submit input:hover{
     transform: scale(1.1);
