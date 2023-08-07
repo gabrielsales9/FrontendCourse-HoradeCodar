@@ -5,16 +5,32 @@
 }
 .container{
     display: flex;
+    width: 100%;
+    background-color: #a9a7a7;
 }
-.navbar-container{
+.header{
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(153, 153, 153);
+    width: 100%;
+    height: 80px;
+    padding: 0 2rem 0 2rem;
+    line-height: 40px;
 }
-.navbar-container nav{
+.header a{
+    text-decoration: none;
+    color: #fff;
+    justify-content: flex-start;
+    width: 15%;
+}
+.navbar-header{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 59px;
-
-
+    justify-content: space-between;
+    column-gap: 2em;
+    width: 40%;
+    
+}
+.navbar-header a{
+    text-transform: uppercase;
 }
