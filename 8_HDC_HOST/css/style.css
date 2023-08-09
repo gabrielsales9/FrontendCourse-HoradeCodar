@@ -8,11 +8,9 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color: #000;
 }
 .header{
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     width: 100%;
     height: 80px;
@@ -25,8 +23,8 @@
     text-decoration: none;
     height: 80px;
     align-items: center;
-    color: #fff;
     font-size: 14px;
+    color: #fff;
 }
 .navbar-content{
     display: flex;
@@ -38,11 +36,9 @@
     padding: 0px 1em 0px 1em;
     column-gap: 10px;
 }
-.navbar-content li{
+.navbar-content li, .navbar-content li a{
     display: flex;
     line-height: 40px;
-}
-.navbar-content li a{
     text-decoration: none;
     color: #fff;
     font-size: 14px;
@@ -51,20 +47,12 @@
     background-color:#372eb5 ;
     border-radius: 5px;
     padding: 0px 20px 0px 20px;
-    height: 40px;
-    color: #fff;
 }
 .main-background{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     background-image: url(../img/pexels-pixabay-316093.jpg);
     background-size: cover;
     padding: 10rem 0;
     background-position: center;
-}
-.main-background h1,
-.main-background p{
     color: #fff;
     text-align: center;
     font-weight: bold;
@@ -77,20 +65,131 @@
     font-size: 32px;
 }
 .section-beneficios{
-    display: flex;
-    justify-content: center;
-    padding: 5em 0;
-    background-color: #fff;
-    color: #000;
-    height: 100%;
+   display: flex;
+   padding: 5em 1em;
 }
-.section-beneficios ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.section-beneficios li{
+.box-beneficios{
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+    padding: 0 2em 0 2em;
 }
+.icons-beneficios{
+    color: #372eb5;
+    font-size: 100px;
+    margin-bottom: 15px;
+
+
+}
+.box-beneficios h3{
+    margin-bottom: 5px;
+    color: #372eb5;
+    font-weight: bold;
+}
+.box-beneficios p{
+    width: 80%;
+}
+
+
+
+
+/* 
+@media (max-width:480px){
+    .main-background h1{
+        font-size: 30px;
+    }
+    .main-background p{
+        font-size: 20px;
+        padding: 0em 1em;
+    }
+    .section-beneficios{
+        justify-content: center;
+        flex-direction: row;
+        padding: 3em 0;
+    }
+    .section-beneficios ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .section-beneficios li{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1rem 2rem 1rem 2rem;
+        text-align: center
+    }
+}
+@media (min-width:480px) and (max-width:768px) {
+    .main-background h1{
+        font-size: 35px;
+    }
+    .main-background p{
+        font-size: 22px;
+    }
+    .section-beneficios{
+        padding: 3em 0;
+    }
+    .section-beneficios ul{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .section-beneficios li{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 3rem 2rem 3rem;
+        text-align: center
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .main-background h1{
+        font-size: 40px;
+    }
+    .main-background p{
+        font-size: 25px;
+    }
+    .section-beneficios{
+        padding: 3em 0;
+    }
+    .section-beneficios ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .section-beneficios li{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 3rem 2rem 3rem;
+        text-align: center
+    }
+}
+@media screen and (min-width:1025px) {
+
+} */
+
+
+
+
+/*320px — 480px: dispositivos móveis. 
+481px — 768px: iPads, tablets. 
+769px — 1024px: telas pequenas, laptops. 
+1025px — 1200px: desktops, telas grandes.*/
+/* @media (min-width:480px) and (max-width:768px) {
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .header{
+        background-color: #0543eb;
+    }
+}
+@media screen and (min-width:1025px) {
+    .header{
+        background-color: #ff01c0;
+    }
+    max 800, max 1300,
+} */
