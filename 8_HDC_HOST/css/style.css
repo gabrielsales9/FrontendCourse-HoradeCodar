@@ -109,7 +109,6 @@
     width: 80%;
     color: var(--cor-secundaria);
 }
-
 @media (max-width:800px){
     .main-background h1{
         font-size: 34px;
