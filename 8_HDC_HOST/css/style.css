@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: var(--cor-primaria);
 }
 .header{
     display: flex;
@@ -62,7 +63,7 @@
     color: var(--cor-terciaria) !important;
 }
 .nav-btn:hover{
-    border: 1px solid #372eb5;
+    border: 3px solid #372eb5;
     transition: border-color 0.3s ease;
 }
 .main-background{
@@ -139,7 +140,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    padding: 20px 0px;
+    padding: 25px 10px;
 }
 .content-plan{
     display: flex;
@@ -159,7 +160,7 @@
 }
 .content-plan ul li{
     list-style: none;
-    padding: 5px 5px 5px 5px;
+    padding: 10px 5px 10px 5px;
     color: var(--cor-primaria);
 }
 .plan-btn{
@@ -204,9 +205,98 @@
     text-align: center;
     font-weight: bold;
 }
-.box{
-    height: 1000px;
-    background-color: #272727;
+.plans-search{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10px;
+    align-items: center;
+    height: 100%;
+    background-color: var(--cor-secundaria);
+    color: #e4e4e4;
+}
+.plans-search h3{
+    font-size: 50px;
+    text-align: center;
+    padding: 0px 15px;
+}
+.plans-search p{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.forms-search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px ;
+}
+.forms-search input{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0px;
+    border-radius: 8px;
+}
+.inp-digPlan{
+    height: 60px;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 60%;
+    background-color: var(--cor-primaria);
+    border: 3px solid --cor-secundaria ;
+}
+.inp-butPlan{
+    height: 58px;
+    width: 200px;
+    text-transform: uppercase;
+    color: var(--cor-terciaria);
+    font-size: 17px;
+    border: 3px solid --cor-terciaria;
+}
+.section-message{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #e4e4e4;
+    padding: 5rem 0 2rem 0;
+}
+.section-message h3{
+ font-size: 50px;
+ padding: 15px;
+}
+.section-message p{
+    font-size: 20px;
+    padding: 0px 15px;
+    margin-bottom: 40px;
+}
+.section-message input,
+.section-message textarea{
+    width: 200px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 3px solid --cor-terciaria;
+    margin: 0 10px 20px;
+}
+.section-message textarea{
+    display: block;
+    margin: 0 auto 20px;
+    width: 470px;
+    height: 150px;
+}
+.section-message input [tyoe="submit"]{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    padding: 50px 0 100px;
 }
 @media (max-width:800px){
     .main-background h1{
@@ -222,6 +312,18 @@
     }
     .box-beneficios{
         padding: 0em 0em 4em 0em;
+    }
+    .text-plans h3{
+        font-size: 35px;
+    }
+    .text-plans p{
+        font-size: 16px;
+    }
+    .section-message h3{
+        font-size: 35px;
+    }
+    .section-message p{
+        font-size: 16px;
     }
 }
 @media (max-width:1200px){
