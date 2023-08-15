@@ -52,19 +52,23 @@
     text-decoration: none;
     color: var(--cor-primaria);
     font-size: 14px;
+    transition: transform 0.3s ease;
 }
-/* .navbar-content li:hover{
-} */
+.navbar-content li:hover,
+.plan-btn input:hover,
+.inp-butPlan:hover{
+    transform: scale(1.1);
+} 
 .nav-btn{
     background-color: var(--cor-terciaria);
     border-radius: 5px;
     padding: 0px 20px 0px 20px;
     background-color: var(--cor-primaria);
     color: var(--cor-terciaria) !important;
+    transition: border-color 0.3s ease;
 }
 .nav-btn:hover{
-    border: 3px solid #372eb5;
-    transition: border-color 0.3s ease;
+    border: 2px solid var(--cor-primaria);
 }
 .main-background{
     display: flex;
@@ -172,14 +176,16 @@
     margin-bottom: 10px;
 }
 .plan-btn input{
+    font-size: 16px;
     height: 40px;
     width: 150px;
     border: 1px solid #372eb5;
     background-color: #e4e4e4;
     color: #272727;
     border-radius: 5px;
-    text-transform: uppercase;
-    font-weight: bold;
+    color: var(--cor-terciaria);
+    cursor: pointer;
+    transition: transform 0.3s ease;
 }
 .price-plan{
     position: relative;
@@ -248,11 +254,12 @@
 }
 .inp-butPlan{
     height: 58px;
-    width: 200px;
-    text-transform: uppercase;
-    color: var(--cor-terciaria);
+    width: 150px;
+    color: var(--cor-secundaria);
     font-size: 17px;
     border: 3px solid --cor-terciaria;
+    transition: transform 0.3s ease;
+    cursor: pointer;
 }
 .section-message{
     display: flex;
@@ -260,7 +267,6 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 100%;
     background-color: #e4e4e4;
     padding: 5rem 0 2rem 0;
 }
@@ -275,7 +281,6 @@
 }
 .section-message input,
 .section-message textarea{
-    width: 200px;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
@@ -285,13 +290,16 @@
 .section-message textarea{
     display: block;
     margin: 0 auto 20px;
-    width: 470px;
+    width: 80%;
     height: 150px;
 }
-.section-message input [tyoe="submit"]{
-    display: block;
-    margin: 0 auto;
+.section-message form [type="submit"]{
     cursor: pointer;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
+.section-message form [type="submit"]:hover{
+    transform: scale(1.1);
 }
 footer{
     text-align: center;
@@ -299,11 +307,17 @@ footer{
     padding: 50px 0 100px;
 }
 @media (max-width:800px){
-    .main-background h1{
-        font-size: 44px;
+    .main-background h1,
+    .text-plans h3,
+    .plans-search h3,
+    .section-message h3{
+        font-size: 40px;
     }
-    .main-background p{
-        font-size: 20px;
+    .main-background p,
+    .text-plans p,
+    .plans-search p,
+    .section-message p{
+        font-size: 18px;
     }
     .section-beneficios{
         display: flex;
@@ -312,18 +326,6 @@ footer{
     }
     .box-beneficios{
         padding: 0em 0em 4em 0em;
-    }
-    .text-plans h3{
-        font-size: 35px;
-    }
-    .text-plans p{
-        font-size: 16px;
-    }
-    .section-message h3{
-        font-size: 35px;
-    }
-    .section-message p{
-        font-size: 16px;
     }
 }
 @media (max-width:1200px){
