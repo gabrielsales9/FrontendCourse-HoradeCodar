@@ -180,8 +180,7 @@
     height: 40px;
     width: 150px;
     border: 1px solid #372eb5;
-    background-color: #e4e4e4;
-    color: #272727;
+    background-color: var(--cor-primaria);
     border-radius: 5px;
     color: var(--cor-terciaria);
     cursor: pointer;
@@ -189,22 +188,22 @@
 }
 .price-plan{
     position: relative;
-    background-color: #fff;
+    background-color: var(--cor-primaria);
     top:-30px;
     left: 17px;
     width: 250px;
     height: 160px;
     border-radius: 8px;
-    box-shadow: 5px 5px 10px --cor-secundaria;
+    box-shadow: 5px 5px 10px #272727;
 }
 .price-plan h3,
 .price-plan p{
     color: var(--cor-terciaria);
 }
 .price-plan h3{
-    text-transform: uppercase;
     font-size: 20px;
     padding-top: 20px;
+    font-weight: bold;
 }
 .price-plan p{
     font-size: 60px;
@@ -218,16 +217,18 @@
     align-items: center;
     height: 100%;
     background-color: var(--cor-secundaria);
-    color: #e4e4e4;
+    color: var(--cor-primaria);
+}
+.plans-search h3,
+.plans-search p{
+    text-align: center;
 }
 .plans-search h3{
     font-size: 50px;
-    text-align: center;
     padding: 0px 15px;
 }
 .plans-search p{
     font-size: 20px;
-    text-align: center;
     padding: 20px 0px;
 }
 .forms-search{
@@ -236,7 +237,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 10px 10px ;
+    padding: 10px 10px;
 }
 .forms-search input{
     display: flex;
@@ -257,7 +258,7 @@
     width: 150px;
     color: var(--cor-secundaria);
     font-size: 17px;
-    border: 3px solid --cor-terciaria;
+    border: 3px solid ;
     transition: transform 0.3s ease;
     cursor: pointer;
 }
@@ -267,12 +268,12 @@
     align-items: center;
     text-align: center;
     width: 100%;
-    background-color: #e4e4e4;
+    background-color: var(--cor-primaria);
     padding: 5rem 0 2rem 0;
 }
 .section-message h3{
- font-size: 50px;
- padding: 15px;
+    font-size: 50px;
+    padding: 15px;
 }
 .section-message p{
     font-size: 20px;
@@ -284,7 +285,7 @@
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 5px;
-    border: 3px solid --cor-terciaria;
+    border: 3px solid #272727;
     margin: 0 10px 20px;
 }
 .section-message textarea{
